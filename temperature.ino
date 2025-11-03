@@ -7,7 +7,6 @@ const int PIN_BUZ  = 9;
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 
 void setup() {
-  // scoate referința internă
   Serial.begin(9600);
   pinMode(PIN_LED, OUTPUT);
   pinMode(PIN_BUZ, OUTPUT);
